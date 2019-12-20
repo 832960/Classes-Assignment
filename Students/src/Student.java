@@ -1,12 +1,15 @@
 public class Student {
 
     String firstName;
-    static int studentId;
-    String[] courses;
+    int studentId;
+    static int id;
+    Courses[] courses;
 
-    Student(String firstName, String[] courses) {
+    Student(String firstName, Courses[] courses) {
 
         this.firstName = firstName;
+        studentId = id;
+        id++;
         this.courses = courses;
 
     }

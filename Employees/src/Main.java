@@ -13,10 +13,11 @@ public class Main {
         System.out.println("Salary: " + Bob.getSalary());
 
         Bob.setSalary(1400);
-        System.out.println("New salary: " + Bob.getSalary());
+        System.out.println("\nNew salary: " + Bob.getSalary());
 
-        System.out.println("Annual salary: " + Bob.getAnnualSalary());
+        System.out.println("\nAnnual salary: " + Bob.getAnnualSalary());
 
+        System.out.println("\nRaise salary by 10%");
         Bob.raiseSalary(10);
         System.out.println("Raised salary: " + Bob.getSalary());
 

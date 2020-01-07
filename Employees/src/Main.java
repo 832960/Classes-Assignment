@@ -18,8 +18,7 @@ public class Main {
         System.out.println("\nAnnual salary: " + Bob.getAnnualSalary());
 
         System.out.println("\nRaise salary by 10%");
-        Bob.raiseSalary(10);
-        System.out.println("Raised salary: " + Bob.getSalary());
+        System.out.println(Bob.raiseSalary(10));
 
         System.out.println(Bob.toString());
 

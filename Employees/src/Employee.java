@@ -56,10 +56,10 @@ public class Employee {
 
     }
 
-    public void raiseSalary(int percent) {
+    public int raiseSalary(int percent) {
 
         double salary = this.salary * (1 + (double)percent/100);
-        this.salary = (int)salary;
+        return (int)salary;
 
     }
 

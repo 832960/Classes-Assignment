@@ -20,7 +20,7 @@ public class Student {
 
     public String toString() {
 
-        return "Student[Name = " + firstName + " " + lastName + ", Grade = " + grade + ", Student ID = " + studentId + "]";
+        return "Student[Name = " + firstName + " " + lastName + ", Grade = " + grade + "]";
 
     }
 

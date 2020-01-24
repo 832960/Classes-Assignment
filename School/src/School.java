@@ -72,11 +72,11 @@ public class School {
 
         for (Teacher teacher : teachers1) {
 
-            if (teacher.getFirstName().toLowerCase().equals(firstName)) {
+            if (teacher.getFirstName().equals(firstName)) {
 
-                if (teacher.getLastName().toLowerCase().equals(lastName)) {
+                if (teacher.getLastName().equals(lastName)) {
 
-                    if (teacher.getSubject().toLowerCase().equals(subject)) {
+                    if (teacher.getSubject().equals(subject)) {
 
                         teachers1.remove(teacher);
                         break;
@@ -100,9 +100,9 @@ public class School {
 
         for (Student student : students1) {
 
-            if (student.getFirstName().toLowerCase().equals(firstName)) {
+            if (student.getFirstName().equals(firstName)) {
 
-                if (student.getLastName().toLowerCase().equals(lastName)) {
+                if (student.getLastName().equals(lastName)) {
 
                     if (student.getGrade() == grade) {
 

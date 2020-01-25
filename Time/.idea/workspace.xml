@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb1aed4-d31a-40c3-bcd9-92b6e6216eeb" name="Default Changelist" comment="" />
+    <list default="true" id="ed3226bf-c07a-486f-a5a1-d640fc071db1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,15 +18,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1WrMu5vjRF9P3Nm5fBXlZhUn7R6" />
+  <component name="ProjectId" id="1WrPmYeFcdGZ5uVwiEHj5144bhD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579297030553" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ExtraMarks-Assignment/FavouriteTimes" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,7 +44,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="School" />
+      <module name="Time" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,13 +60,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1cb1aed4-d31a-40c3-bcd9-92b6e6216eeb" name="Default Changelist" comment="" />
-      <created>1579293445286</created>
+      <changelist id="ed3226bf-c07a-486f-a5a1-d640fc071db1" name="Default Changelist" comment="" />
+      <created>1579904899897</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579293445286</updated>
-      <workItem from="1579293447689" duration="3640000" />
-      <workItem from="1579903480766" duration="1419000" />
+      <updated>1579904899897</updated>
+      <workItem from="1579904902233" duration="657000" />
+      <workItem from="1579909201815" duration="7201000" />
+      <workItem from="1579927359394" duration="171000" />
     </task>
     <servers />
   </component>
@@ -77,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

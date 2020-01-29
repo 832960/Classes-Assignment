@@ -26,7 +26,6 @@ public class Main {
         time.setHour(43);
         System.out.println(time);
 
-
     }
 
 }

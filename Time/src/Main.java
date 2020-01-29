@@ -26,9 +26,6 @@ public class Main {
         time.setHour(43);
         System.out.println(time);
 
-        System.out.println("Next Second");
-        time.nextSecond();
-        System.out.println(time);
 
     }
 

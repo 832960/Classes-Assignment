@@ -3,10 +3,10 @@ public class Courses {
     private String subjectName;
     private int studentGrade;
 
-    Courses(String subjectName, int grade) {
+    Courses(String subjectName, int studentGrade) {
 
         this.subjectName = subjectName;
-        this.studentGrade = grade;
+        this.studentGrade = studentGrade;
 
     }
 
@@ -24,7 +24,7 @@ public class Courses {
 
     public String toString() {
 
-        return "Courses[Subject name = " + subjectName + "]";
+        return "Course[Subject Name = " + subjectName + "]";
 
     }
 

@@ -2,28 +2,28 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student student = new Student("Jon", new Courses[]{
+        Courses[] courses = new Courses[2];
+        courses[0] = new Courses("Math", 86);
+        courses[1] = new Courses("Science", 94);
 
-            new Courses("Math", 90),
-            new Courses("Science",93),
+        Student student = new Student("Hubert", courses);
+        Student student1 = new Student("Terry", courses);
 
-        });
-
-        //Adds a course to the student's courses array
-        student.addCourse("Social Studies", 91);
-        student.addCourse("NA", 10);
-
-        //Gets all student's subjects
         student.getSubjects();
+        System.out.println(student.getAverageGrade() + "%");
 
-        //Average grade
-        System.out.println(student.getGrades());
+        student.addCourse("Social Studies", 78);
+        student.getSubjects();
+        System.out.println(student.getAverageGrade() + "%");
 
-        //Printing student object
         System.out.println(student.toString());
+        for (Courses course : courses) {
 
-        //Printing courses object
-        student.coursesToString();
+            System.out.println(course.toString());
+
+        }
+
+        System.out.println(student1.toString());
 
     }
 

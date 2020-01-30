@@ -10,11 +10,11 @@ public class Main {
         Student student1 = new Student("Terry", courses);
 
         student.getSubjects();
-        System.out.println(student.getAverageGrade() + "%");
+        System.out.println(student.getAverageGrade() + "%\n");
 
         student.addCourse("Social Studies", 78);
         student.getSubjects();
-        System.out.println(student.getAverageGrade() + "%");
+        System.out.println(student.getAverageGrade() + "%\n");
 
         System.out.println(student.toString());
         for (Courses course : courses) {

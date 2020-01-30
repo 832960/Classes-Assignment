@@ -66,7 +66,7 @@ public class Student {
 
         for (Courses course : courses) {
 
-            System.out.println(course.toString());
+            System.out.println(course.getSubjectName());
 
         }
 

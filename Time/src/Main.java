@@ -26,6 +26,10 @@ public class Main {
         time.setHour(43);
         System.out.println(time);
 
+        System.out.println("Time set to 54, 90, 74");
+        time.setTime(54,90,74);
+        System.out.println(time);
+
     }
 
 }

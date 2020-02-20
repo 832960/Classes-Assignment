@@ -72,6 +72,15 @@ public class Time {
 
     }
 
+    //Sets the time
+    public void setTime(int hour, int minute, int second) {
+
+        setHour(hour);
+        setMinute(minute);
+        setSecond(second);
+
+    }
+
     //toString method
     public String toString() {
 

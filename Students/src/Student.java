@@ -62,15 +62,13 @@ public class Student {
 
     }
 
-    public String getSubjects() {
+    public void getSubjects() {
 
         for (Courses course : courses) {
 
             System.out.println(course.getSubjectName());
 
         }
-
-        return null;
 
     }
 

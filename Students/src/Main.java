@@ -7,7 +7,6 @@ public class Main {
         courses[1] = new Courses("Science", 94);
 
         Student student = new Student("Hubert", courses);
-        Student student1 = new Student("Terry", courses);
 
         student.getSubjects();
         System.out.println(student.getAverageGrade() + "%\n");
@@ -23,6 +22,7 @@ public class Main {
 
         }
 
+        Student student1 = new Student("Terry", courses);
         System.out.println(student1.toString());
 
     }

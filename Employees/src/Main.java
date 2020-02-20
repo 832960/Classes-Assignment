@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Full name: " + Bob.getName());
         System.out.println("Salary: " + Bob.getSalary());
 
-        Bob.setSalary(1400);
+        Bob.setSalary(2700);
         System.out.println("\nNew salary: " + Bob.getSalary());
 
         System.out.println("\nAnnual salary: " + Bob.getAnnualSalary());
